@@ -7,6 +7,7 @@
 ## 功能
 - 进群自动回复使用欢迎语。
 - 自动翻译，格式化 Midjourney 提示词。
+- 过滤敏感词，拒绝绘图。
 - 记录不同用户的使用次数，超出限制后回复提示。
 - @机器人 自动回复。
 
@@ -28,7 +29,7 @@ CREATE TABLE mj.user_table (
 ```
 
 
-## npm启动
+## 本地启动
 ```shell
 git clone https://github.com/vastxie/Wechat-Midjourney-ChatGPT
 cd Wechat-Midjourney-ChatGPT
