@@ -72,8 +72,8 @@ export class MJApi {
     const [rows, _]: [mysql.RowDataPacket[], FieldPacket[]] = await this.db.query('SELECT drawCount FROM user_table WHERE userid = ?', [userId]);
 
     // 如果用户的绘图次数大于或等于10，返回一个特定的SubmitResult对象
-    if (rows.length > 0 && rows[0].drawCount >= 100) {
-      return new SubmitResult(-10, "今日绘图次数过多\n可在网页端继续使用\nhttps://asst.lightai.cloud/midjourney");
+    if (rows.length > 0 && rows[0].drawCount >= 10) {
+      return new SubmitResult(-10, "今日绘图次数过多\n可在网页端继续使用");
     }
     try {
       // 使用axios实例发送POST请求
