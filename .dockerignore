@@ -1,6 +1,0 @@
-node_modules
-logs
-*.log
-npm-debug.log*
-.env
-*memory-card.json
