@@ -5,9 +5,23 @@
 ## 主要功能
 
 - `@机器人` 随机模型回复，`/+序号` 指定模型回复，或使用 `/all` 调用全部模型。
-- 支持 MidJourney 绘画，只支持最简单的绘画功能，自动切图成 4 张
+  
+  <img width="952" alt="image" src="https://github.com/vastxie/Wechat-Midjourney-ChatGPT/assets/24899308/51659903-3808-4cfb-9eb4-fe72b0298442">
+  
+- MidJourney 绘画，只支持最简单的绘画功能，自动切图成 4 张
+  
+  <img width="957" alt="image" src="https://github.com/vastxie/Wechat-Midjourney-ChatGPT/assets/24899308/aa729a6a-c428-4530-8d4b-ca803bf717dd">
+  <img width="960" alt="image" src="https://github.com/vastxie/Wechat-Midjourney-ChatGPT/assets/24899308/d5101348-431c-43b4-a274-235eb0ca20ac">
+
+
 - 自动回复欢迎语。
+  
+  <img width="957" alt="image" src="https://github.com/vastxie/Wechat-Midjourney-ChatGPT/assets/24899308/b926ce3a-4b1b-439b-8ff7-1dbb60203daf">
+  
 - 记录不同用户的使用次数，超出限制停止使用。
+  
+  <img width="953" alt="image" src="https://github.com/vastxie/Wechat-Midjourney-ChatGPT/assets/24899308/a419861d-81a1-4e89-a2ec-db4f64a9ba22">
+
 
 ## 注意事项
 
